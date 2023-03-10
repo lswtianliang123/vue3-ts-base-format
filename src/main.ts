@@ -14,4 +14,8 @@ function fun3() {
   console.log(3);
 }
 
+function fun4() {
+  console.log(3);
+}
+
 createApp(App).mount('#app');

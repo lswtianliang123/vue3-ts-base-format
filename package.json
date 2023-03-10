@@ -9,18 +9,15 @@
     "preview": "vite preview",
     "lint": "eslint src --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": ""
   },
   "lint-staged": {
-    "src/**/*.{js,vue}": [
-      "eslint --fix",
+    "src/**/*.{js,ts,vue,jsx,tsx}": [
+      "prettier --write",
+      "eslint --cache --fix",
       "git add"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "dependencies": {
     "vue": "^3.2.45"
