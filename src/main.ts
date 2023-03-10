@@ -6,4 +6,8 @@ function fun1() {
   console.log(3);
 }
 
+function fun2() {
+  console.log(3);
+}
+
 createApp(App).mount('#app');
