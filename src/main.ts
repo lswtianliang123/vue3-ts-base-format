@@ -22,4 +22,8 @@ function fun5() {
   console.log(3);
 }
 
+function fun6() {
+  console.log(3);
+}
+
 createApp(App).mount('#app');
