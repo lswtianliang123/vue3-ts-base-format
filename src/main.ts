@@ -10,4 +10,8 @@ function fun2() {
   console.log(3);
 }
 
+function fun3() {
+  console.log(3);
+}
+
 createApp(App).mount('#app');
